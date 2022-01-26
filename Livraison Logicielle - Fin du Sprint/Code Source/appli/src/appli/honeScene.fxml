@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appli.HoneSceneController">
+   <children>
+      <Label layoutX="18.0" layoutY="48.0" prefHeight="17.0" prefWidth="261.0" text="Stocks managment :" />
+      <Label layoutX="18.0" layoutY="219.0" prefHeight="17.0" prefWidth="251.0" text="Patient managment :" />
+      <Button fx:id="mask" layoutY="73.0" mnemonicParsing="false" onAction="#toMaskWindow" prefHeight="25.0" prefWidth="200.0" text="Masks" />
+      <Button fx:id="Vaccine" layoutX="200.0" layoutY="73.0" mnemonicParsing="false" onAction="#toVaccineWindow" prefHeight="25.0" prefWidth="200.0" text="Vaccines" />
+      <Button fx:id="tests" layoutX="400.0" layoutY="73.0" mnemonicParsing="false" onAction="#toTestWindow" prefHeight="25.0" prefWidth="200.0" text="Tests" />
+      <Button fx:id="listPatient" layoutY="243.0" mnemonicParsing="false" onAction="#toListVaccinedPatient" prefHeight="25.0" prefWidth="299.0" text="List of vaccined patients" />
+      <Button fx:id="form" layoutX="299.0" layoutY="243.0" mnemonicParsing="false" onAction="#toFormVaccinedPatient" prefHeight="25.0" prefWidth="306.0" text="Form add new patient" />
+   </children>
+</AnchorPane>
